@@ -1,0 +1,13 @@
+name: Push
+
+on:
+  push:
+
+jobs:
+  alfalfa:
+    name: Try running alfalfa
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Alfalfa Composite Action
+        uses: TShapinsky/actions-alfalfa
