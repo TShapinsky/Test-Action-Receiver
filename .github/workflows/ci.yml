@@ -1,7 +1,8 @@
 name: On Outside Trigger
 
-on: repository_dispatcher
-  types: [trigger-test]
+on: 
+  repository_dispatcher:
+    types: [trigger-test]
 
 jobs:
   run:
