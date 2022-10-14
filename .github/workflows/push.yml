@@ -10,4 +10,4 @@ jobs:
 
     steps:
       - name: Alfalfa Composite Action
-        uses: TShapinsky/actions-alfalfa
+        uses: TShapinsky/actions-alfalfa@main
