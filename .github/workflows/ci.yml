@@ -2,7 +2,7 @@ name: On Outside Trigger
 
 on: 
   repository_dispatch:
-    types: [trigger-test]
+    types: [update-main, update-update-branch-name]
 
 jobs:
   run:
